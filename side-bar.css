@@ -1,0 +1,44 @@
+.main-side-bar {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    bottom: 0;
+    background-color:white;
+    width: 78px;
+    padding-top: 5px;
+}
+
+/* .home-button {
+}
+.explore-button{}
+.subscription-button{}
+.originals-button{}
+.youtube-music-button{}
+.library-button{} */
+.sidebar-link{
+    display: flex;
+    height: 76px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+
+}
+.sidebar-link:hover {
+    background-color: rgb(238, 238, 238)
+
+}
+
+.sidebar-link img {
+    height: 24px;
+    margin-bottom: 5px;
+    
+}
+
+.sidebar-link div {
+    font-family: Robot,Arial;
+    font-size: 10px;
+}

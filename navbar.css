@@ -4,6 +4,16 @@
     flex-direction: row;
     height: 56px;
     justify-content: space-between;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+  }
+  .main-side-bar {
+    display: flex;
+    flex-direction: column;
   }
 
   .left-section {
@@ -77,6 +87,7 @@
     border: none;
     border-radius: 50%;
     cursor: pointer;
+    padding: 1px 4px 1px 4px
   }
   .voice-search-button:hover {
     background-color: #d4d1d1;
@@ -93,22 +104,45 @@
     margin-right: 16px;
     flex-shrink: 0;
   }
+  .notification { 
+    position: absolute;
+    font-size: 11px;
+    font-family: Roboto,Arial;
+    background-color: rgb(191, 11, 11);
+    padding: 1px 5px 1px 5px ;
+    color: white;
+    border-radius: 50%;
+    top: 4px;
+    right: 0px;
+    border: 1px solid white;
+  }
   .menu-button {
     background-color: white;
     border: none;
     cursor: pointer;
+    border-radius: 50%;
+    padding: 2px 7px 2px 7px
+
   }
 
   .video-plus-button {
     background-color: white;
     border: none;
     cursor: pointer;
+    border-radius: 50%;
+    padding: 2px 7px 2px 7px
+
+
   }
 
   .bell-button {
+    position: relative;
     background-color: white;
     border: none;
     cursor: pointer;
+    border-radius: 50%;
+    padding: 2px 7px 2px 7px
+
   }
   .bell-button:hover,
   .menu-button:hover,
@@ -139,6 +173,7 @@
     width: 32px;
     height: 32px;
     border-radius: 50%;
+    cursor: pointer;
     
 
   }
