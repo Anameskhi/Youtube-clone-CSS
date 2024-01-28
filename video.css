@@ -3,16 +3,10 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 16px;
   row-gap: 40px;
+  margin-top: 20px;
 }
-p {
-  font-family: Roboto, Arial;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.search-bar {
-  font-size: 20px;
-  margin-left: 2px 
-}
+
+
 .tumbnail {
   width: 100%;
 }
@@ -40,7 +34,13 @@ p {
   margin-bottom: 6px;
 }
 .bottom-container{
-  display: grid;
-  grid-template-columns: 50px 1fr;
+  display: flex;
 }
 
+.channel-picture {
+  width: 50px
+
+}
+.video-info {
+  flex: 1
+}

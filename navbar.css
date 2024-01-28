@@ -1,0 +1,144 @@
+
+.main-navbar {
+    display: flex;
+    flex-direction: row;
+    height: 56px;
+    justify-content: space-between;
+  }
+
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+
+  .middle-section { 
+    display: flex;
+    max-width: 600px;
+    flex: 1;
+    margin-left: 32px;
+    margin-right: 35px;
+    align-items: center;
+    
+  }
+
+  
+  .search-bar {
+    flex: 1;
+    height: 40px;
+    padding: 0 4px 0 16px;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #ccc;
+    border-radius: 40px 0 0 40px;
+    width:0
+  }
+
+  .hamburger-menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    cursor: pointer;
+
+  }
+
+  .youtube-logo {
+    height: 20px;
+    cursor: pointer;
+
+  }
+
+  .search-button {
+    height: 42px;
+    width: 64px;
+    border: 1px solid #d3d3d3;
+    border-radius: 0 40px 40px 0;
+    cursor: pointer;
+    margin: 0;
+    background-color: #f8f8f8;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    margin-left: -1px;
+
+  }
+  .search-icon {
+    height: 25px;
+    width: 25px;
+    margin-top: 4px;
+  }
+  .search-button:hover {
+    background-color: #f2efef;
+  }
+
+  .voice-search-button { 
+    height: 42px;
+    width: 40px;
+    margin-left: 15px;
+    background-color: #f0eded;
+    opacity: 0.8;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .voice-search-button:hover {
+    background-color: #d4d1d1;
+    
+  }
+  .voice-icon {
+    margin-top: 4px;
+  }
+  .right-section {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 16px;
+    flex-shrink: 0;
+  }
+  .menu-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .video-plus-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .bell-button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .bell-button:hover,
+  .menu-button:hover,
+  .video-plus-button:hover {
+    background-color: #ebeaea;
+    
+
+  }
+  .menu-icon {
+    height: 24px;
+    margin-top: 4px;
+
+  }
+
+  .vodeo-plus-icon {
+    height: 24px;
+    margin-top: 4px;
+
+  }
+
+  .bell-icon {
+    height: 24px;
+    margin-top: 4px;
+
+  }
+
+  .profile-image-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    
+
+  }

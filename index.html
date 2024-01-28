@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube Clone</title>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./video.css">
+    <link rel="stylesheet" href="./general.css">
+    <link rel="stylesheet" href="./navbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,10 +19,35 @@
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
 </head>
 <body>
-<div>
-<input  class="search-bar" type="text" placeholder="Search">
-<img src="assets/images/search.svg" alt="">
-</div>
+    <div class="main-navbar">
+        <div class="left-section">
+            <img class="hamburger-menu" src="assets/images/navbar.svg" alt="">
+            <img class="youtube-logo"  src="assets/images/YouTube-Logo.wine.png" alt="">
+        </div>
+        <div class="middle-section">
+            <input  class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="assets/images/search.svg" alt="">
+            </button>
+            <button class="voice-search-button">
+                <img  class="voice-icon" src="assets/images/voice.svg" alt="">
+            </button>
+        </div>
+        <div class="right-section">
+            <button class="menu-button">
+                <img class="menu-icon" src="assets/images/show-more-menu.svg" alt="">
+            </button>
+
+            <button class="video-plus-button">
+                <img  class="vodeo-plus-icon" src="assets/images/video-plus.svg" alt="">
+            </button>
+            <button class="bell-button">
+                <img  class="bell-icon" src="assets/images/bell.svg" alt="">
+            </button>
+                <img  class="profile-image-icon" src="assets/images/profile.jpg" alt="">
+        </div>
+    </div>
+
 
 <div class="main-container-grid">
     <div class="card-container">
